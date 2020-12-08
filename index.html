@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        #map{
+            height: 400px;
+        }
+    </style>
+    <title>Geolocalizacion </title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="search-place" placeholder=" Buscar Lugar"></imput>
+                <div id="map"> </div>
+            </div>
+            <div class="col-md-4">
+                <div id="info"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUJR1BU9sFQ3xN0UQyXK5vHV5Vmhg8J5I&libraries=places"></script>
+    <script src="/lib/user_location.js"></script>
+    <script src="/lib/main.js"></script>
+</body>
+</html>
